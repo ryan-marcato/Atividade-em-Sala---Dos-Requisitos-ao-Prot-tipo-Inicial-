@@ -7,6 +7,8 @@ import os
 
 ARQUIVO_SESSAO = "sessao.json"
 
+#IA utilizada para criar autenticação e manipulação de JSON
+
 class Login:
     def __init__(self, usuario, senha):
         self.__usuario = usuario
